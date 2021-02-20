@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    padding: 0;
+}
+.header{
+    background-image: url("https://cdn-media-1.freecodecamp.org/images/w663tm74X4xB8g8SV8XWm0KxAIjBZ0kMAV6R");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    opacity: 0.9;
+    padding: 50px 100px;
+ 
+}
+.img{
+    filter: blur(2px)
+}
+.content{
+    color: white;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    box-sizing: content-box;
+    
+    
+
+}
+.btn{
+    padding: 15px 30px;
+    background-color: rgb(61, 61,61);
+    color: white;
+    border: solid 1px rgb(153, 117,51);
+    width: 250px;
+    text-decoration: none;
+  
+}
+p{
+    margin-bottom: 60px;
+}
+.btn:hover{
+    background-color: white;
+    color: black; 
+}
+.first{
+    background-color: rgb(224, 224, 224);
+    text-align: center;
+    padding: 40px 50px;
+}
+.first p{
+    column-count: 2;
+    column-gap: 50px;
+}
+.block{
+    width: 320px;
+    margin: 20px 15px;
+    background-color:white;
+
+ 
+}
+.second{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(73, 75, 77);
+   
+   
+}
+.text{
+    padding: 15px;
+    text-align: center;
+}
+.third{
+    text-align: center;
+    padding: 30px 40px;
+}
+.fourth{
+    display: flex;
+    color: white;
+}
+.left{
+   background-color: steelblue;
+   padding: 40px 20px;
+   flex:50%;
+
+}
+.right{
+    background-color:  rgb(73, 75, 77);
+    padding: 40px 20px;
+    flex: 50%;
+}
+.test{
+    width: 80%;
+    text-align: center;
+    padding-left: 50px;
+}
+
+
+
+footer{
+    background-color:black;
+    color: white;
+    display: flex;
+    padding: 40px 50px;
+
+  
+}
+.acme{
+    flex: 50%;
+    color: white;
+  
+  
+}
+.by{
+    color:white;
+    flex: 50%;
+}
+span{
+    color:  steelblue;
+}
+@media screen and (max-width: 768px){
+    .first p{
+        column-count: auto;
+    }
+    .block{
+        margin: 10px 5px;
+        width: 80%;
+    }
+    .second{
+        flex-wrap: wrap;
+    }
+   
+  .fourth{
+      display: block;
+  }
+footer{
+    display: block;
+}
+}
